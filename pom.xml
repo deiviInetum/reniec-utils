@@ -18,6 +18,14 @@
 		<poi.version>3.9</poi.version>
 		<poi.schemas.version>1.4</poi.schemas.version>
 	</properties>
+	<distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub Packages</name>
+	      <url>https://maven.pkg.github.com/deiviInetum/reniec-utils</url>
+	    </repository>
+  	</distributionManagement>
+	
 	<dependencies>
 		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -29,6 +37,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency> -->
+		
 		<dependency>
 			<groupId>com.drewnoakes</groupId>
 			<artifactId>metadata-extractor</artifactId>
